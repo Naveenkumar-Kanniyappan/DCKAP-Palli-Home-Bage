@@ -1,0 +1,42 @@
+:root {
+  --body-background-color: rgb(255, 255, 255);
+  --palli-name-color: rgb(80, 168, 67);
+  --nave-bar-text-color: rgb(175, 53, 35);
+  --dckap-palli-works-background-color: rgb(44, 48, 63);
+  --text-color: rgb(102, 97, 92);
+  --header-text-color: rgb(32, 39, 46);
+  --thamil-text-background-color: rgb(32, 39, 46);
+  --footer-background-color: rgb(31, 39, 46);
+}
+
+body{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--body-background-color);
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nave-bar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.img{
+    width: 35%;
+}
+img{
+    width: 50%;
+}
+
+.nave-bar-contant{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap: 5%;
+}

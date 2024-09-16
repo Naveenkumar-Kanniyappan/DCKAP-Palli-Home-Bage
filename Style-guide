@@ -1,0 +1,17 @@
+
+/* ------------------------------------All-Colors--------------------------------------- */
+
+
+
+/* -------------------------------------All-Font-Style-------------------------------------------------- */
+ 
+                        font-family (Montserrat);
+
+nav-bar-text:font-size (15px);  font-weight (500); line-height 16px;
+dckap-palli-header:font-size (53px);  letter-spacing (0.848px);  line-height (55px); font-weight (800);
+your-sucesful-carier:font-size (36px); line-height (55px); letter-spacing (0.576px); font-weight (500);
+thanku for visiting para:font-size (18px); line-height (28px); font-weight (500); 
+become a software header :font-size (64px); line-height (78px); font-weight (700);
+free training: font-size (36px); line-height (44px): font-weight (600);
+dckap-palli-para :font-weight (400);  line-height (24px);   font-size (16px);
+
