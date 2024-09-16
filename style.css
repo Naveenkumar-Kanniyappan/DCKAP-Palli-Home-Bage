@@ -1,12 +1,15 @@
+
 :root {
   --body-background-color: rgb(255, 255, 255);
-  --palli-name-color: rgb(80, 168, 67);
+  --palli-name-color:rgba(5,184,59,255);
   --nave-bar-text-color: rgb(175, 53, 35);
   --dckap-palli-works-background-color: rgb(44, 48, 63);
   --text-color: rgb(102, 97, 92);
   --header-text-color: rgb(32, 39, 46);
   --thamil-text-background-color: rgb(32, 39, 46);
   --footer-background-color: rgb(31, 39, 46);
+  --the-moment-text-color:white;
+  --practial-container-background-color:rgba(235,248,236,255);
 }
 
 body{
@@ -16,7 +19,7 @@ body{
     padding: 0px;
     background-color: var(--body-background-color);
 }
-header{
+/* header{
     display: flex;
     justify-content: space-evenly;
 }
@@ -39,4 +42,147 @@ img{
     align-items: center;
     justify-content:end;
     gap: 5%;
+} */
+
+.ACCOMPLISHMENT-container{  
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 3%;
+    background-color: var(--palli-name-color);
+}
+.ACCOMPLISHMENT-container-img{
+    width: 40%;
+}
+.ACCOMPLISHMENT-container-img img{
+    width: 100%;
+    border-radius: 4px;
+}
+.ACCOMPLISHMENT-container-contant{
+    width: 45%;
+    color: var(--the-moment-text-color);
+}
+.ACCOMPLISHMENT-container-contant h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+.ACCOMPLISHMENT-container-contant p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.question-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    gap: 5%;
+}
+
+.question-container-contant-1{
+    width: 17%;
+    display: flex;
+}
+.question-container-contant-2{
+    width: 57%;
+   
+}
+.question-container-contant-2 p,h3{
+    font-size: small;
+}
+.question-container-contant-2 p{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #8896A6;
+    padding-bottom: 10px;
+}
+.practical-container{
+    display: flex;
+    justify-content: center;
+    background-color: var(--practial-container-background-color);
+    padding: 5%;
+}
+
+.practical-container-contant{
+    width: 90%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    color: #20272e;
+    text-align: center;
+}
+.practical-container-contant h2{
+    margin: 0px;
+}
+.practical-container-contant p{
+    font-size: small; 
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.location-contant{
+    width: 35%;
+}
+.call-back-form{
+    width: 30%;
+}
+.location-contant h4{
+    font-size: 18px;
+    color: #49a843;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+strong a{
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+}
+.location-map{
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.location-map iframe{
+    width: 100%;
+}
+
+.call-back-form h4{
+    font-size: 18px;
+    color: #49a843;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.dckap-logo-2{
+    width: 35%;
+}
+.dckap-logo-2 img{
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+form input{
+    font-size: 16px;;
+    padding: 6px 10px;
+    height: 20px;
+    width: 90%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button{
+    background: #49a843;
+    color: #fff;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    overflow: hidden;
 }
